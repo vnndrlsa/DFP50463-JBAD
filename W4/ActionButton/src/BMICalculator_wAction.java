@@ -29,7 +29,7 @@ public class BMICalculator_wAction {
 			JTextField weightBox = new JTextField(10);
 			frame.add(weightBox);
 			
-			JLabel heightLabel = new JLabel("Height (cm)");
+			JLabel heightLabel = new JLabel("Height (m)");
 			frame.add(heightLabel);
 			
 			JTextField heightBox = new JTextField(10);
