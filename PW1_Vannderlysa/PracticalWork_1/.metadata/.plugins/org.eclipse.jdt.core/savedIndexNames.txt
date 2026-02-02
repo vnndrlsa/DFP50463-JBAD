@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\lyssa\eclipse-workspace\DFP50463\PW1_Vannderlysa\PracticalWork_1\.metadata\.plugins\org.eclipse.jdt.core

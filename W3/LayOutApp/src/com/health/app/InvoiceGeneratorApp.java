@@ -38,13 +38,13 @@ public class InvoiceGeneratorApp {
         frame.add(inputPanel, BorderLayout.NORTH);
         
         // Center Panel - Invoice Display
-        JTextArea invoiceArea = new JTextArea();
-        invoiceArea.setEditable(false);
+        JTextArea invoiceArea = new JTextArea(12,22);
+        invoiceArea.setText("Invoice Details...");
         JScrollPane scrollPane = new JScrollPane(invoiceArea);
         frame.add(scrollPane, BorderLayout.CENTER);
         
-        // Bottom Panel - Buttons
-        JPanel buttonPanel = new JPanel(new FlowLayout());
+        
+        JPanel buttonPanel = new JPanel();
         
         JButton btnGenerate = new JButton("Generate Invoice");
         buttonPanel.add(btnGenerate);
