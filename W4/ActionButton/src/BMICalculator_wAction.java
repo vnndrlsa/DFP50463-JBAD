@@ -14,13 +14,33 @@ public class BMICalculator_wAction {
 			frame.setLayout(new GridLayout(4,2));
 			
 			JMenuBar menuBar = new JMenuBar();
+			JMenu fileMenu = new JMenu("File");
+			JMenu editMenu = new JMenu("Edit");
+			JMenu sourceMenu = new JMenu("Source");
+			JMenu refractorMenu = new JMenu("Refreactor");
+			JMenu navigateMenu = new JMenu("Navigate");
+			JMenu searchMenu = new JMenu("Search");
+			JMenu projectMenu = new JMenu("Project");
+			JMenu runMenu = new JMenu("Run");
+			JMenu windowMenu = new JMenu("Window");
 			JMenu helpMenu = new JMenu("Help");
+			
+			
 			JMenuItem aboutItem = new JMenuItem("About");
 			JMenuItem helpItem = new JMenuItem("Help");
 
 			helpMenu.add(aboutItem);
 			helpMenu.add(helpItem);
 			
+			menuBar.add(fileMenu);
+			menuBar.add(editMenu);
+			menuBar.add(sourceMenu);
+			menuBar.add(refractorMenu);
+			menuBar.add(navigateMenu);
+			menuBar.add(searchMenu);
+			menuBar.add(projectMenu);
+			menuBar.add(runMenu);
+			menuBar.add(windowMenu);
 			menuBar.add(helpMenu);
 			
 			JLabel weightLabel = new JLabel("Weight (kg)");
@@ -45,6 +65,39 @@ public class BMICalculator_wAction {
 			
 			JButton button2 = new JButton("Clear");
 			frame.add(button2);
+			
+			
+			//HELP MENU ACTIONS
+			helpItem.addActionListener(new ActionListener() {
+				
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					// TODO Auto-generated method stub
+					JOptionPane.showMessageDialog(frame, 
+							"BMI Calculator V1" ,
+							"About BMI Calculator",
+							JOptionPane.INFORMATION_MESSAGE);
+				}
+			});
+			
+			//ABOUT MENU ACTIONS
+			aboutItem.addActionListener(new ActionListener() {
+				
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					// TODO Auto-generated method stub
+					JOptionPane.showMessageDialog(frame, 
+							"How to use:\n" +
+							 "1. Select your unit system (Metric or Imperial)\n" +
+							 "2. Enter your weight and height\n" +
+							 "3. Click Calculate BMI button\n" +
+							 "4. View your BMI result",
+							 "Help - BMI Calculator",
+							 JOptionPane.INFORMATION_MESSAGE);
+				}
+			});
+			
+			
 			
 			button.addActionListener(new ActionListener() {
 				
