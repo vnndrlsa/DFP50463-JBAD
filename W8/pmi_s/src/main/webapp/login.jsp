@@ -15,7 +15,7 @@ String error = request.getParameter("ralat");
  <p style="color:red;">Invalid Username or password</p>
 <% }%>
 
-  <form action="processLogin.jsp" method="post">
+  <form action="loginProcess.jsp" method="post">
     <label>Username:</label>
     <input type="text" name="username" required />
     <br/>

@@ -1,2 +1,3 @@
-2026/03/12-14:37:26.725 4eac Creating DB C:\Users\lyssa\eclipse-workspace\DFP50463\W8\pmi_s\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
-2026/03/12-14:37:26.911 4eac Reusing MANIFEST C:\Users\lyssa\eclipse-workspace\DFP50463\W8\pmi_s\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/03/30-07:53:47.482 4cfc Reusing MANIFEST C:\Users\lyssa\eclipse-workspace\DFP50463\W8\pmi_s\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/03/30-07:53:47.483 4cfc Recovering log #3
+2026/03/30-07:53:47.483 4cfc Reusing old log C:\Users\lyssa\eclipse-workspace\DFP50463\W8\pmi_s\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 

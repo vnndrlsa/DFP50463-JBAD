@@ -40,7 +40,9 @@ if (msg!=null){
 	<td><%= rs.getString("lastname") %></td>
 	<td><%= rs.getString("username") %></td>
 	<td><%= rs.getString("role_name") %></td>
+	<td><a href="editUser.jsp?id=<%= rs.getInt("id") %>">Update</a></td>	
 	<td><a href="deleteUser.jsp?id=<%= rs.getInt("id") %>">Delete</a></td>
+	
 	</tr>
 	<%
 	}
